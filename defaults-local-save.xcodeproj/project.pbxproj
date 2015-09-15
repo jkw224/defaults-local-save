@@ -14,6 +14,7 @@
 		FB0CDE211BA788BF00519186 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB0CDE1F1BA788BF00519186 /* LaunchScreen.storyboard */; };
 		FB0CDE2C1BA788BF00519186 /* defaults_local_saveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0CDE2B1BA788BF00519186 /* defaults_local_saveTests.swift */; };
 		FB0CDE371BA788BF00519186 /* defaults_local_saveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0CDE361BA788BF00519186 /* defaults_local_saveUITests.swift */; };
+		FB0CDE461BA794D600519186 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0CDE451BA794D600519186 /* Person.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		FB0CDE321BA788BF00519186 /* defaults-local-saveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "defaults-local-saveUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB0CDE361BA788BF00519186 /* defaults_local_saveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = defaults_local_saveUITests.swift; sourceTree = "<group>"; };
 		FB0CDE381BA788BF00519186 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB0CDE451BA794D600519186 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				FB0CDE1D1BA788BF00519186 /* Assets.xcassets */,
 				FB0CDE1F1BA788BF00519186 /* LaunchScreen.storyboard */,
 				FB0CDE221BA788BF00519186 /* Info.plist */,
+				FB0CDE451BA794D600519186 /* Person.swift */,
 			);
 			path = "defaults-local-save";
 			sourceTree = "<group>";
@@ -255,6 +258,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB0CDE461BA794D600519186 /* Person.swift in Sources */,
 				FB0CDE191BA788BF00519186 /* ViewController.swift in Sources */,
 				FB0CDE171BA788BF00519186 /* AppDelegate.swift in Sources */,
 			);
